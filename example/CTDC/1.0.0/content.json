@@ -1,5 +1,8 @@
 {
-    "model-file": "ctdc_model_file.yaml",
+    "model-files": [
+    "ctdc_model_file.yaml",
+    "ctdc_model_properties_file.yaml"
+],
     "prop-file": "ctdc_model_properties_file.yaml",
     "readme-file": "README.md",
     "loading-file": "CTDC_Example_Files.zip",
