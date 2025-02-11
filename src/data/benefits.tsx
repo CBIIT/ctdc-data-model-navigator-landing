@@ -1,4 +1,4 @@
-import { FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
+import { FiFileText, FiUpload, FiDatabase, FiBookOpen, FiClock, FiUsers, FiSearch, FiCompass, FiBarChart2, FiBriefcase, FiDollarSign, FiLock, FiPieChart, FiShield, FiTarget, FiTrendingUp, FiUser } from "react-icons/fi";
 
 import { IBenefit } from "@/types"
 
@@ -26,47 +26,69 @@ export const benefits: IBenefit[] = [
         imageSrc: "/images/Picture1.png"
     },
     {
-        title: "Seamless Investing",
+        title: "Data Export",
         description: "Start building wealth today, no financial degree required. Finwise makes investing accessible and straightforward.",
         bullets: [
             {
-                title: "Micro-Investing",
-                description: "Begin with as little as $1 and watch your money grow.",
-                icon: <FiDollarSign size={26} />
+                title: "Multi-Format Export",
+                description: "Effortlessly export your data dictionary in TSV, JSON, or PDF formats, including node properties and attributes like Required and Data Type.",
+                icon: <FiFileText size={26} />
             },
             {
-                title: "Expert Portfolios",
-                description: "Choose from investment strategies tailored to your risk tolerance.",
-                icon: <FiBriefcase size={26} />
+                title: "Data Loading Templates",
+                description: "Easily create TSV-based Data Loading Templates for specific nodes, automatically incorporating key property fields from parent nodes.",
+                icon: <FiUpload size={26} />
             },
             {
-                title: "Real-Time Performance",
-                description: "Track your investments with easy-to-understand metrics and visuals.",
-                icon: <FiPieChart size={26} />
+                title: "Comprehensive Node Details",
+                description: "Ensure all relevant property attributes are captured, providing a clear, structured view of your data model.",
+                icon: <FiDatabase size={26} />
             }
         ],
         imageSrc: "/images/Picture2.png"
     },
     {
-        title: "Bank-Grade Security",
+        title: "Model Documentation",
         description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
         bullets: [
             {
-                title: "Military-Grade Encryption",
-                description: "Your information is safeguarded with the highest level of encryption.",
-                icon: <FiLock size={26} />
-            },
-            {
-                title: "Biometric Authentication",
-                description: "Access your account securely with fingerprint or facial recognition.",
-                icon: <FiUser size={26} />
-            },
-            {
-                title: "Real-Time Fraud Detection",
-                description: "Our system constantly monitors for suspicious activity to keep your money safe.",
-                icon: <FiShield size={26} />
-            }
-        ],
+            title: "Built-In Documentation",
+            description: "Keep your model well-documented with optional README.md and version history, making it easy for users to understand model intricacies.",
+            icon: <FiBookOpen size={26} />
+        },
+        {
+            title: "Version History Tracking",
+            description: "Ensure transparency by maintaining a version history document, helping users track changes across new releases.",
+            icon: <FiClock size={26} />
+        },
+        {
+            title: "Streamlined Collaboration",
+            description: "Integrated documentation simplifies collaboration, providing quick access to essential model details for all users.",
+            icon: <FiUsers size={26} />
+        }
+        ],    
         imageSrc: "/images/Picture3.png"
+    },
+    {
+        title: "Model-Wide Searching",
+        description: "Your financial data deserves the best protection. Rest easy knowing Finwise employs cutting-edge security measures.",
+            bullets: [
+                {
+                    title: "Powerful Search",
+                    description: "Quickly find nodes, properties, or attributes using an advanced search mechanism.",
+                    icon: <FiSearch size={26} />
+                },
+                {
+                    title: "Instant Results",
+                    description: "Search results highlight relevant nodes, making it easy to locate the exact information you need.",
+                    icon: <FiTarget size={26} />
+                },
+                {
+                    title: "Enhanced Navigation",
+                    description: "Effortlessly explore your data model with a streamlined search experience.",
+                    icon: <FiCompass size={26} />
+                }
+            ],
+        imageSrc: "/images/Picture5.png"
     },
 ]
