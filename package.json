@@ -1,13 +1,23 @@
 {
   "homepage": "https://cbiit.github.io/ctdc-data-model-navigator-landing/",
   "name": "Bento-DMN",
+  "description": "Bento Data Model Navigator",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "deploy": "npm run build && gh-pages -d out"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CBIIT/ctdc-data-model-navigator-landing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CBIIT/ctdc-data-model-navigator-landing/issues"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.8",

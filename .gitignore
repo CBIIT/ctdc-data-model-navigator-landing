@@ -9,9 +9,6 @@
 # production
 /build
 
-# Next.js build output
-/.next
-/out
 
 # misc
 .DS_Store
