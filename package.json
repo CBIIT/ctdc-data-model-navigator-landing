@@ -1,5 +1,5 @@
 {
-  "homepage": "https://cbiit.github.io/ctdc-data-model-navigator-landing/",
+  "homepage": ".",
   "name": "Bento-DMN",
   "description": "Bento Data Model Navigator",
   "version": "0.1.0",
@@ -9,8 +9,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
-    "deploy": "npm run build && gh-pages -d out"
+    "export": "next export"
   },
   "repository": {
     "type": "git",
