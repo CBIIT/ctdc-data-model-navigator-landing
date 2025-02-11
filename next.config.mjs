@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    output: "export",
+    basePath: "/ctdc-data-model-navigator-landing", // GitHub repo name
+    assetPrefix: "/ctdc-data-model-navigator-landing/",
+  };
+  
+  module.exports = nextConfig;
+  
