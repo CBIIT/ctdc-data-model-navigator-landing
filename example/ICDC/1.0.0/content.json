@@ -1,6 +1,5 @@
 {
-    "model-file": "icdc-model.yml",
-    "prop-file": "icdc-model-props.yml",
+    "model-files": ["icdc-model.yml","icdc-model-props.yml"],
     "readme-file": "Data_Model_Navigator_README.md",
     "loading-file": "ICDC_Example_Files.zip",
     "list-delimiter": "*",
