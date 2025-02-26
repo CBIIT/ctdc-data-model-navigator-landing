@@ -1,6 +1,5 @@
 {
-    "model-file": "cds-model.yml",
-    "prop-file": "cds-model-props.yml",
+    "model-files": ["cds-model.yml"."cds-model-props.yml"],
     "readme-file": "README.md",
     "loading-file": "cds-file-examples.zip",
     "semantics": {
